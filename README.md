@@ -10,13 +10,17 @@ You can download it here: [reds](https://raw.githubusercontent.com/rcqls/reds/ma
 ## Requirement
 
 * A bash script system: since a good practice is to create folder `~/bin` and add it to your `$PATH` by updating your `~/.bash_profile` (or similar `~/.profile` or whatever else depending of your shell binary), I will consider it as the default for the rest of this documentation. Otherwise, it is easy to adapt to your particular case.
+
 ```
 mkdir ~/bin
 echo `export PATH=$PATH:~/bin`
+
 ```
+
 * You need to have [`rebol`](http://rebol.com/download.html) and copy it in `~/bin` 
 * A `red` source folder:
 ```
+
 mkdir -p ~/Github
 cd ~/Github
 git clone https://github.com/red/red
@@ -25,11 +29,15 @@ git checkout origin/GTK # user mode (no modification expected, useful for reds s
 # or
 git checkout GTK # developer mode
 ```
-Other alternative is red GTK development by rcqls: ```
+Other alternative is red GTK development by rcqls: 
+
+```
 git clone https://github.com/rcqls/red
 git checkout origin/GTK-dev # user mode
 ```
+
 * Optionally you can also clone `code` and `community` repositories 
+
 ```
 mkdir -p ~/Github
 cd ~/Github
@@ -70,6 +78,7 @@ reds -r ~/Github/code/Scripts/perlin.red
 ## Options
 
 If you have several red source folder, for instance in `~/tmp/red`, you could use this red source folder using `--root` option specific to `reds` bash script.
+
 ```
 # console-view
 reds --root ~/temp/red -r ~/Github/red/environment/console/CLI/console-view.red
