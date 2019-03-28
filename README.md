@@ -13,8 +13,7 @@ You can download it here: [reds](https://raw.githubusercontent.com/rcqls/reds/ma
 
 ```
 mkdir ~/bin
-echo `export PATH=$PATH:~/bin`
-
+echo `export PATH=$PATH:~/bin` > ~/.bash_profile
 ```
 
 * You need to have [`rebol`](http://rebol.com/download.html) and copy it in `~/bin` 
