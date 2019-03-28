@@ -52,7 +52,6 @@ To compile a script do as you would do with `red` binary.
 
 ### for red/GTK user
 
-Once 
 The first and main action for red/GTK user is to create a new `console-view` binary.
 
 ```{bash}
