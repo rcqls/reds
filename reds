@@ -21,7 +21,7 @@ debug=""
 new_redroot=""
 if [ -f "red.r" ] && [ -f "compiler.r" ] && [ -d "environment/console" ];then
 	new_redroot="$(pwd)"
-elif [ "$RED_GTK_DIR"!= "" ]; then
+elif [ "$RED_GTK_DIR" != "" ]; then
 	new_redroot="$RED_GTK_DIR"
 elif [ -d "$HOME/Github/red" ]; then
 	new_redroot="$HOME/Github/red"
