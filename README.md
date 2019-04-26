@@ -17,7 +17,7 @@ echo `export PATH=$PATH:~/bin` > ~/.bash_profile
 ```
 
 * You need to have [`rebol`](http://rebol.com/download.html) and copy it in `~/bin` 
-* For linux user willing red/GTK: see [here](https://github.com/rcqls/reds/README-RedGTK.md)
+* For red/GTK user: see requirements [here](https://github.com/rcqls/reds/blob/master/README-RedGTK.md)
 * A `red` source folder:
 ```
 
