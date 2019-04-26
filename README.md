@@ -84,3 +84,13 @@ reds --root ~/temp/red -r ~/Github/red/environment/console/CLI/console-view.red
 # mandelbrot-fast
 reds --root ~/temp/red -r ~/Github/code/Scripts/mandelbrot-fast.red
 ```
+
+## compiling [redCV](https://github.com/ldci/redCV) scripts
+
+
+```
+cd <somewhere>
+git clone https://github.com/ldci/redCV
+cd redCV/samples/image_conversion
+reds -r Conversion.red
+```
