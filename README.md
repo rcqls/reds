@@ -85,7 +85,7 @@ reds --root ~/temp/red -r ~/Github/red/environment/console/CLI/console-view.red
 reds --root ~/temp/red -r ~/Github/code/Scripts/mandelbrot-fast.red
 ```
 
-## compiling [redCV](https://github.com/ldci/redCV) scripts
+## Compiling [redCV](https://github.com/ldci/redCV) scripts
 
 
 ```
