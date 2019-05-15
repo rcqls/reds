@@ -94,7 +94,11 @@ if [ "$debug" != "" ];then
 	echo "<redargs=[$redargs]|redfile=[$redfile]>"
 fi
 
-echo "Rebol[] do/args %${redroot}/red.r \"${redargs} %${redfile}\"" | rebol +q -s
+if [ "$redfile" != "" ];then
+	redfile="%${redfile}"
+fi
+
+echo "Rebol[] do/args %${redroot}/red.r \"${redargs} ${redfile}\"" | rebol +q -s
 
 if [ "$redmv" != "" ]; then
 	basename=$(basename ${redfile})
