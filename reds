@@ -72,7 +72,7 @@ do
 		if [ "$1" = "libRed" ];then 
 			redargs="$redargs $1"
 			cp -R ${redroot}/libRed .
-			rm libRed/libRed.bas libRed/README 
+			rm libRed/libRed.bas libRed/README.md 
 			shift
 			if [ "$1" = "[stdcall]" ];then
 				redargs="$redargs $1"
