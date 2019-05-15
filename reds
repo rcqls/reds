@@ -70,8 +70,8 @@ do
 		redargs="$redargs $1"
 		shift
 		if [ "$1" = "libRed" ];then 
-			shift
 			redargs="$redargs $1"
+			shift
 			if [ "$1" = "[stdcall]" ];then
 				redargs="$redargs $1"
 			fi
